@@ -516,6 +516,7 @@ class Specs(SpecSet):
     sctp_eps = RegistryPoint()
     scsi_eh_deadline = RegistryPoint(multi_output=True)
     scsi_fwver = RegistryPoint(multi_output=True)
+    sealert = RegistryPoint()
     secure = RegistryPoint(filterable=True)
     selinux_config = RegistryPoint()
     semid = RegistryPoint()
